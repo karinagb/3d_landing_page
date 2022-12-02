@@ -242,15 +242,11 @@ span {
 }
 
 img {
-
 position: absolute;
 left: 22.61%;
 right: 9.02%;
 top: 0%;
 bottom: -6.25%;
 
-background: url(Saly-3.png);
 transform: rotate(-1.51deg);
-
-
 }
