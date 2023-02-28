@@ -2,32 +2,30 @@ body {
 	display: flex;
 	flex-direction: column;
 	background-color: #1e90ff80;
-    padding: 20px 60px;
+	padding: 20px 60px;
 }
 
-
 main {
-    display: flex;
+	display: flex;
 	flex-direction: column;
-    align-items: center;
-    justify-content: center;
+	align-items: center;
+	justify-content: center;
 }
 
 .content {
-    display: flex;
+	display: flex;
 	flex-direction: column;
-    align-items: flex-start;
-    justify-content: center;
+	align-items: flex-start;
+	justify-content: center;
 }
 
 .up {
 	display: flex;
 	flex-direction: row;
-    justify-content: space-between;
-    align-items: center;
-    
-    
-    padding: 20px;
+	justify-content: space-between;
+	align-items: center;
+
+	padding: 20px;
 
 	background-color: #fefefe;
 	border-radius: 12px;
@@ -75,11 +73,10 @@ main {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 35px;
+	line-height: 20px;
 	color: #4443d0;
 	text-align: center;
-
-    padding: 5px 20px;
+	padding: 10px 40px;
 	background: #ffffff;
 	border: 1px solid #7372ff;
 	border-radius: 5px;
@@ -90,11 +87,11 @@ main {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 35px;
+	line-height: 20px;
 	color: #ffffff;
 	text-align: center;
 
-    padding: 5px 20px;
+	padding: 10px 40px;
 	background: #4443d0;
 	border-radius: 5px;
 }
@@ -112,14 +109,14 @@ span {
 	color: #5352ed;
 }
 
-.We p{
+.We p {
 	font-family: "Roboto";
 	font-style: normal;
 	font-weight: 400;
 	font-size: 24px;
 	line-height: 35px;
 
-    margin: 0 0 50px;
+	margin: 0 0 50px;
 	color: #000000;
 }
 
@@ -130,15 +127,16 @@ span {
 	font-size: 16px;
 	line-height: 19px;
 	color: rgba(0, 0, 0, 0.5);
+	margin: 0;
 }
 
 .Email {
-    width: 350px;
+	width: 350px;
 	background: #ffffff;
 	border: 1px solid #2a92f9;
-	border-radius: 10px;
-    padding: 5px 20px;
-    margin: 0;
+	border-radius: 5px;
+	padding: 10px 20px;
+	margin: 0;
 }
 
 .Email p {
@@ -148,6 +146,7 @@ span {
 	font-size: 16px;
 	line-height: 19px;
 	color: #9f9f9f;
+	margin: 0;
 }
 
 .SignUp2 {
@@ -155,51 +154,49 @@ span {
 	font-style: normal;
 	font-weight: 700;
 	font-size: 16px;
-	line-height: 10px;
+	line-height: 20px;
 	color: #ffffff;
 	text-align: center;
 
-	width: 127px;
-
-    padding: 5px 20px;
+	padding: 10px 40px;
 	background: #4140cd;
 	border-radius: 5px;
-    margin: 30px 0;
+	margin: 10px 0;
+}
+
+.SignUp2 p {
+	margin: 0;
 }
 
 .image {
-    align-self: flex-end;
+	align-self: flex-end;
 }
 
 img {
-    margin: 0;
+	margin: 0;
 	transform: rotate(-1.51deg);
 }
 
 @media (min-width: 1024px) {
+	main {
+		display: flex;
+		flex-direction: row;
+		align-items: center;
+		justify-content: space-between;
+		margin-top: 100px;
+	}
 
-    main {
-        display: flex;
-        flex-direction: row;
-        align-items: center;
-        justify-content: space-between;
-        margin-top: 100px;
-    }
+	.content {
+		margin-top: 60px;
+	}
 
-    .content {
-        margin-top: 60px;
-    }
+	.image {
+		align-self: flex-start;
+	}
 
-
-    .image {
-        align-self: flex-start;
-    }
-
-    img {
-        width: 630px;
-        margin: 0;
-        transform: rotate(-1.51deg);
-    }
-
-
+	img {
+		width: 630px;
+		margin: 0;
+		transform: rotate(-1.51deg);
+	}
 }
